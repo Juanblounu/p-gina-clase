@@ -167,12 +167,16 @@ h4 {
     text-align: left;
 }
 
+#fotos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 #fotos .container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-bottom: 50px;
+    margin: 0 auto;
+    width: 1320px;
 }
 
 #fotos img {
