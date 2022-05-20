@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+header{
+    background-image: url("media/daniel-lee-_OqcrFI5370-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/daniel-lee-_OqcrFI5370-unsplash.jpg");
+    height: 720px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+header .container{
+    position:absolute;
+    right: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+a:hover {
+    color:blueviolet;
+}
+
+.container-2 {
+    position: relative;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    text-shadow: 5px 4px 0px rgba(0,0,0,0.7);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+
+.container-2 p {
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-shadow: 3px 2px 0px rgba(0,0,0,0.7);
+    letter-spacing: 1px;
+}
+
+.mitad {
+    height: 600px;
+    position: relative;}
+
+.mitad img {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: 200px;
+    top: -80px;
+    box-shadow: 0px 0px 23px -4px rgba(0,0,0,0.75);
+}
+
+.mitad .container {
+    background-color: white;
+    display:inline-block;
+    position: absolute;
+    top: 300px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 23px -4px rgba(0,0,0,0.75);
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu .container {
+    /* position: relative; */
+    border-style: double;
+    border-width: 12px;
+    border-color: rgb(133, 133, 133);;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-menu {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+#comer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+
+#menu .item {
+    width: 410px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom-style: dotted;
+    padding-bottom: 20px;
+}
+
+#menu .item:first-child{
+    display: inline-block;
+    text-align: center;
+    border-bottom-style: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#menu .item:nth-child(2){
+    display: inline-block;
+    text-align: center;
+    border-bottom-style: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+#beber {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+#menu h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.item h6 {
+    position: absolute;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(133, 133, 133);   
+    font-size: 15px;
+    text-align: left;
+}
+
+#fotos .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#fotos img {
+    width: 330px;
+    height: 230px;
+}
+
+#maps .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+#maps .item {
+    text-align: left;
+}
+
+#maps h4 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#maps h5 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 112, 112);
+}
+
+#maps .item:nth-child(2) {
+    text-align: center;
+}
